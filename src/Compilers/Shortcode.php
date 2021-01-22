@@ -32,7 +32,7 @@ class Shortcode implements Arrayable
      * @param array  $attributes
      * @param string $content
      */
-    public function __construct($name, $attributes = [], $content)
+    public function __construct($name, $attributes = [], $content = null)
     {
         $this->name = $name;
         $this->attributes = $attributes;
